@@ -20,9 +20,9 @@ from pygments.lexers import TextLexer, get_lexer_by_name
 from pygments.util import ClassNotFound
 
 ROOT = Path(__file__).parent
-REPO_URL = "https://github.com/HumbertoAlcantaraArruda/boas-praticas-claude-code"
-SITE_URL = "https://humbertoalcantaraarruda.github.io/boas-praticas-claude-code"
-RAW_GUIA = "https://raw.githubusercontent.com/HumbertoAlcantaraArruda/boas-praticas-claude-code/main/GUIA.md"
+REPO_URL = "https://github.com/HumbertoAlcantaraArruda/updates-claude-code"
+SITE_URL = "https://humbertoalcantaraarruda.github.io/updates-claude-code"
+RAW_GUIA = "https://raw.githubusercontent.com/HumbertoAlcantaraArruda/updates-claude-code/main/GUIA.md"
 
 MESES = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho",
          "agosto", "setembro", "outubro", "novembro", "dezembro"]

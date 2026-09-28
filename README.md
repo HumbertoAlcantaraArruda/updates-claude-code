@@ -2,7 +2,7 @@
 
 Guia prático em português para configurar e usar o Claude Code: janela de contexto, fluxo de trabalho, CLAUDE.md, permissões, modelos, hooks, skills, subagentes, MCP, plugins, sessões e automação. Conferido na documentação oficial em setembro de 2026.
 
-**Site:** https://humbertoalcantaraarruda.github.io/boas-praticas-claude-code/
+**Site:** https://humbertoalcantaraarruda.github.io/updates-claude-code/
 
 ## O que tem aqui
 
@@ -17,8 +17,8 @@ Guia prático em português para configurar e usar o Claude Code: janela de cont
 ## Ensinar a uma sessão do Claude
 
 ```text
-Leia o guia em https://raw.githubusercontent.com/HumbertoAlcantaraArruda/boas-praticas-claude-code/main/GUIA.md
-e o kit em https://github.com/HumbertoAlcantaraArruda/boas-praticas-claude-code/tree/main/starter-kit.
+Leia o guia em https://raw.githubusercontent.com/HumbertoAlcantaraArruda/updates-claude-code/main/GUIA.md
+e o kit em https://github.com/HumbertoAlcantaraArruda/updates-claude-code/tree/main/starter-kit.
 Depois analise este projeto e proponha (sem aplicar ainda) um CLAUDE.md enxuto,
 as regras de permissão e os hooks que fazem sentido aqui. Explique cada escolha.
 ```

@@ -6,32 +6,32 @@ Para ler o guia inteiro de uma vez, use a versão Markdown abaixo. A documentaç
 
 ## Guia
 
-- [Guia completo em Markdown](https://humbertoalcantaraarruda.github.io/boas-praticas-claude-code/GUIA.md): todo o conteúdo do site em um arquivo só
-- [Guia completo (raw no GitHub)](https://raw.githubusercontent.com/HumbertoAlcantaraArruda/boas-praticas-claude-code/main/GUIA.md)
+- [Guia completo em Markdown](https://humbertoalcantaraarruda.github.io/updates-claude-code/GUIA.md): todo o conteúdo do site em um arquivo só
+- [Guia completo (raw no GitHub)](https://raw.githubusercontent.com/HumbertoAlcantaraArruda/updates-claude-code/main/GUIA.md)
 
 ## Kit inicial
 
-- [starter-kit](https://github.com/HumbertoAlcantaraArruda/boas-praticas-claude-code/tree/main/starter-kit): CLAUDE.md modelo, .claude/settings.json com permissões e hooks, hooks em Node (protect-files.mjs, format.mjs), regra com paths, skills (nova-feature, commit) e subagente revisor
+- [starter-kit](https://github.com/HumbertoAlcantaraArruda/updates-claude-code/tree/main/starter-kit): CLAUDE.md modelo, .claude/settings.json com permissões e hooks, hooks em Node (protect-files.mjs, format.mjs), regra com paths, skills (nova-feature, commit) e subagente revisor
 
 ## Seções
 
-- [Como usar este guia](https://humbertoalcantaraarruda.github.io/boas-praticas-claude-code/#como-usar-este-guia)
-- [1. O conceito que muda tudo: a janela de contexto](https://humbertoalcantaraarruda.github.io/boas-praticas-claude-code/#1-o-conceito-que-muda-tudo-a-janela-de-contexto)
-- [2. O fluxo de trabalho que funciona](https://humbertoalcantaraarruda.github.io/boas-praticas-claude-code/#2-o-fluxo-de-trabalho-que-funciona)
-- [3. Memória do projeto: CLAUDE.md e companhia](https://humbertoalcantaraarruda.github.io/boas-praticas-claude-code/#3-memoria-do-projeto-claudemd-e-companhia)
-- [4. Permissões e modos: menos cliques, mesmo controle](https://humbertoalcantaraarruda.github.io/boas-praticas-claude-code/#4-permissoes-e-modos-menos-cliques-mesmo-controle)
-- [5. Modelos, esforço e raciocínio](https://humbertoalcantaraarruda.github.io/boas-praticas-claude-code/#5-modelos-esforco-e-raciocinio)
-- [6. Hooks: automação que sempre acontece](https://humbertoalcantaraarruda.github.io/boas-praticas-claude-code/#6-hooks-automacao-que-sempre-acontece)
-- [7. Skills (e comandos personalizados)](https://humbertoalcantaraarruda.github.io/boas-praticas-claude-code/#7-skills-e-comandos-personalizados)
-- [8. Subagentes: trabalho isolado, contexto limpo](https://humbertoalcantaraarruda.github.io/boas-praticas-claude-code/#8-subagentes-trabalho-isolado-contexto-limpo)
-- [9. MCP: conectando o Claude a ferramentas externas](https://humbertoalcantaraarruda.github.io/boas-praticas-claude-code/#9-mcp-conectando-o-claude-a-ferramentas-externas)
-- [10. Plugins: pacotes prontos](https://humbertoalcantaraarruda.github.io/boas-praticas-claude-code/#10-plugins-pacotes-prontos)
-- [11. Sessões, checkpoints e trabalho em paralelo](https://humbertoalcantaraarruda.github.io/boas-praticas-claude-code/#11-sessoes-checkpoints-e-trabalho-em-paralelo)
-- [12. Automação: modo não interativo, metas e agendamento](https://humbertoalcantaraarruda.github.io/boas-praticas-claude-code/#12-automacao-modo-nao-interativo-metas-e-agendamento)
-- [13. Estilos de resposta (output styles)](https://humbertoalcantaraarruda.github.io/boas-praticas-claude-code/#13-estilos-de-resposta-output-styles)
-- [14. Qual recurso usar? (mapa de decisão)](https://humbertoalcantaraarruda.github.io/boas-praticas-claude-code/#14-qual-recurso-usar-mapa-de-decisao)
-- [15. Erros comuns (e como sair deles)](https://humbertoalcantaraarruda.github.io/boas-praticas-claude-code/#15-erros-comuns-e-como-sair-deles)
-- [16. Atalhos e comandos essenciais](https://humbertoalcantaraarruda.github.io/boas-praticas-claude-code/#16-atalhos-e-comandos-essenciais)
-- [17. Kit inicial pronto para copiar](https://humbertoalcantaraarruda.github.io/boas-praticas-claude-code/#17-kit-inicial-pronto-para-copiar)
-- [18. Ensinando isto a uma sessão do Claude](https://humbertoalcantaraarruda.github.io/boas-praticas-claude-code/#18-ensinando-isto-a-uma-sessao-do-claude)
-- [Fontes](https://humbertoalcantaraarruda.github.io/boas-praticas-claude-code/#fontes)
+- [Como usar este guia](https://humbertoalcantaraarruda.github.io/updates-claude-code/#como-usar-este-guia)
+- [1. O conceito que muda tudo: a janela de contexto](https://humbertoalcantaraarruda.github.io/updates-claude-code/#1-o-conceito-que-muda-tudo-a-janela-de-contexto)
+- [2. O fluxo de trabalho que funciona](https://humbertoalcantaraarruda.github.io/updates-claude-code/#2-o-fluxo-de-trabalho-que-funciona)
+- [3. Memória do projeto: CLAUDE.md e companhia](https://humbertoalcantaraarruda.github.io/updates-claude-code/#3-memoria-do-projeto-claudemd-e-companhia)
+- [4. Permissões e modos: menos cliques, mesmo controle](https://humbertoalcantaraarruda.github.io/updates-claude-code/#4-permissoes-e-modos-menos-cliques-mesmo-controle)
+- [5. Modelos, esforço e raciocínio](https://humbertoalcantaraarruda.github.io/updates-claude-code/#5-modelos-esforco-e-raciocinio)
+- [6. Hooks: automação que sempre acontece](https://humbertoalcantaraarruda.github.io/updates-claude-code/#6-hooks-automacao-que-sempre-acontece)
+- [7. Skills (e comandos personalizados)](https://humbertoalcantaraarruda.github.io/updates-claude-code/#7-skills-e-comandos-personalizados)
+- [8. Subagentes: trabalho isolado, contexto limpo](https://humbertoalcantaraarruda.github.io/updates-claude-code/#8-subagentes-trabalho-isolado-contexto-limpo)
+- [9. MCP: conectando o Claude a ferramentas externas](https://humbertoalcantaraarruda.github.io/updates-claude-code/#9-mcp-conectando-o-claude-a-ferramentas-externas)
+- [10. Plugins: pacotes prontos](https://humbertoalcantaraarruda.github.io/updates-claude-code/#10-plugins-pacotes-prontos)
+- [11. Sessões, checkpoints e trabalho em paralelo](https://humbertoalcantaraarruda.github.io/updates-claude-code/#11-sessoes-checkpoints-e-trabalho-em-paralelo)
+- [12. Automação: modo não interativo, metas e agendamento](https://humbertoalcantaraarruda.github.io/updates-claude-code/#12-automacao-modo-nao-interativo-metas-e-agendamento)
+- [13. Estilos de resposta (output styles)](https://humbertoalcantaraarruda.github.io/updates-claude-code/#13-estilos-de-resposta-output-styles)
+- [14. Qual recurso usar? (mapa de decisão)](https://humbertoalcantaraarruda.github.io/updates-claude-code/#14-qual-recurso-usar-mapa-de-decisao)
+- [15. Erros comuns (e como sair deles)](https://humbertoalcantaraarruda.github.io/updates-claude-code/#15-erros-comuns-e-como-sair-deles)
+- [16. Atalhos e comandos essenciais](https://humbertoalcantaraarruda.github.io/updates-claude-code/#16-atalhos-e-comandos-essenciais)
+- [17. Kit inicial pronto para copiar](https://humbertoalcantaraarruda.github.io/updates-claude-code/#17-kit-inicial-pronto-para-copiar)
+- [18. Ensinando isto a uma sessão do Claude](https://humbertoalcantaraarruda.github.io/updates-claude-code/#18-ensinando-isto-a-uma-sessao-do-claude)
+- [Fontes](https://humbertoalcantaraarruda.github.io/updates-claude-code/#fontes)

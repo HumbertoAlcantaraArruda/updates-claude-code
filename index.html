@@ -410,7 +410,7 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus { opacity: 1; }
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h4"/></svg>
     <span class="hide-sm">GUIA.md</span>
   </a>
-  <a class="icon-btn" href="https://github.com/HumbertoAlcantaraArruda/boas-praticas-claude-code" title="Repositório no GitHub" aria-label="Repositório no GitHub">
+  <a class="icon-btn" href="https://github.com/HumbertoAlcantaraArruda/updates-claude-code" title="Repositório no GitHub" aria-label="Repositório no GitHub">
     <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg>
   </a>
   <button class="icon-btn" id="themeBtn" aria-label="Alternar tema claro/escuro" title="Alternar tema">
@@ -1854,8 +1854,8 @@ claude<span class="w"> </span>-p<span class="w"> </span><span class="s2">&quot;A
 </ol>
 <h2 id="18-ensinando-isto-a-uma-sessao-do-claude">18. Ensinando isto a uma sessão do Claude<a class="anchor" href="#18-ensinando-isto-a-uma-sessao-do-claude" aria-label="Link para esta seção">#</a></h2>
 <p>Quer que o Claude aplique estas práticas num projeto seu? Mande um prompt assim:</p>
-<div class="code"><div class="code-head"><span>texto</span><button class="copy" type="button" aria-label="Copiar código"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg><span>Copiar</span></button></div><pre><code>Leia o guia em https://raw.githubusercontent.com/HumbertoAlcantaraArruda/boas-praticas-claude-code/main/GUIA.md
-e o kit em https://github.com/HumbertoAlcantaraArruda/boas-praticas-claude-code/tree/main/starter-kit.
+<div class="code"><div class="code-head"><span>texto</span><button class="copy" type="button" aria-label="Copiar código"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg><span>Copiar</span></button></div><pre><code>Leia o guia em https://raw.githubusercontent.com/HumbertoAlcantaraArruda/updates-claude-code/main/GUIA.md
+e o kit em https://github.com/HumbertoAlcantaraArruda/updates-claude-code/tree/main/starter-kit.
 Depois analise este projeto e proponha (sem aplicar ainda) um CLAUDE.md enxuto,
 as regras de permissão e os hooks que fazem sentido aqui. Explique cada escolha.</code></pre></div>
 <p>Ou, para aprender junto:</p>
@@ -1963,7 +1963,7 @@ com decisões de design.</code></pre></div>
       }, function () { toast("Não foi possível copiar"); });
     });
   });
-  var promptText = "Leia o guia em https://raw.githubusercontent.com/HumbertoAlcantaraArruda/boas-praticas-claude-code/main/GUIA.md\ne o kit em https://github.com/HumbertoAlcantaraArruda/boas-praticas-claude-code/tree/main/starter-kit.\nDepois analise este projeto e proponha (sem aplicar ainda) um CLAUDE.md enxuto,\nas regras de permissão e os hooks que fazem sentido aqui. Explique cada escolha.";
+  var promptText = "Leia o guia em https://raw.githubusercontent.com/HumbertoAlcantaraArruda/updates-claude-code/main/GUIA.md\ne o kit em https://github.com/HumbertoAlcantaraArruda/updates-claude-code/tree/main/starter-kit.\nDepois analise este projeto e proponha (sem aplicar ainda) um CLAUDE.md enxuto,\nas regras de permissão e os hooks que fazem sentido aqui. Explique cada escolha.";
   document.getElementById("copyPrompt").addEventListener("click", function () {
     copyText(promptText).then(function () { toast("Prompt copiado. Cole numa sessão do Claude Code."); },
       function () { toast("Não foi possível copiar"); });
