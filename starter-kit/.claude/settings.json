@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Bash(php artisan test *)",
+      "Bash(php artisan route:list *)",
+      "Bash(./vendor/bin/pint *)",
+      "Bash(composer test *)",
+      "Bash(npm run *)",
+      "Bash(git status *)",
+      "Bash(git diff *)",
+      "Bash(git log *)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
+    ],
+    "ask": [
+      "Bash(git push *)",
+      "Bash(composer require *)",
+      "Bash(npm install *)"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Bash(php artisan migrate:fresh *)",
+      "Bash(php artisan db:wipe *)",
+      "Bash(rm -rf *)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PROJECT_DIR}/.claude/hooks/protect-files.mjs\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PROJECT_DIR}/.claude/hooks/format.mjs\"",
+            "timeout": 60
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "matcher": "compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo \"Lembrete pos-compactacao: rode os testes afetados antes de concluir; nunca edite .env; mudancas grandes pedem plano primeiro.\""
+          }
+        ]
+      }
+    ]
+  }
+}

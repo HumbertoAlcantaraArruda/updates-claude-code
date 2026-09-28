@@ -1,0 +1,4 @@
+# Adicione estas linhas ao .gitignore do seu projeto
+CLAUDE.local.md
+.claude/settings.local.json
+.claude/worktrees/
